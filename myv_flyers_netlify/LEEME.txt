@@ -1,0 +1,17 @@
+GENERADOR DE FLYERS MYV - INSTALACIÓN
+
+Esta herramienta es independiente de electrobazarmyv.com.
+
+1. Creá un repositorio NUEVO en GitHub (por ejemplo: myv-flyers).
+2. Subí el contenido de esta carpeta a la raíz del repositorio, incluyendo netlify.toml y la carpeta netlify/functions.
+3. En Netlify elegí Add new project > Import an existing project > GitHub y seleccioná el repositorio nuevo.
+4. Configurá Publish directory: . y Functions directory: netlify/functions (netlify.toml ya las define).
+5. Publicá. Netlify te dará un enlace nuevo.
+6. Abrí el enlace, tocá Actualizar productos, Generar 10 flyers y Descargar ZIP.
+
+IMPORTANTE:
+- No uses únicamente la opción de arrastrar archivos a Netlify: para estas funciones es preferible desplegar desde GitHub.
+- No se modifica la tienda original.
+- Los precios usan costo × 2,20 y formato ARS. Verificá con un producto real si la tienda aplica redondeos, descuentos o reglas adicionales.
+- La conexión externa no pudo probarse desde este entorno; si cambia la API del proveedor puede requerir ajustes.
+- El enlace generado no es privado por sí mismo. Para acceso privado configurá protección de acceso en Netlify.
